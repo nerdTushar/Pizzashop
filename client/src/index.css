@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.cardd{
+  margin-left: 3.75rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .offer {
+    font-size: 13px !important;
+  }
+  .filter {
+     position: relative;
+     display: flex;
+     flex-direction: row-reverse;
+  }
+  .searchkey {
+    position: absolute;
+    left : 35px;
+    width: 200px;
+  }
+  .search{
+   position: absolute;
+   right: -12px;
+   width: 200px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+  }
+  .category{
+    margin-top: 50px;
+    margin-right: 235px;
+    width: 200px;
+  }
+
+  .cardbody1{
+       position: relative;
+  }
+  .cardbody2{
+    position: relative;
+  }
+  .varient{
+      position: absolute;
+      width: 100px;
+  }
+  .quantity{
+     position: absolute;
+     width: 100px;
+     right: 4px;
+  }
+  .price{
+    margin-top: 60px;
+    width: 133px;
+  }
+  .cart{
+    margin-top: 60px;
+    width: 97px;
+    margin-left: 48px;
+  }
+  .card{
+    margin-left: 50px;
+  }
+
+}
